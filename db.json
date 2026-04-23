@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "gmhansen@chesscoach.com",
+      "password": "hashedpassword123",
+      "name": "GM Magnus Hansen",
+      "role": "instructor",
+      "bio": "International Master with 10+ years of teaching experience",
+      "profileImage": "/instructors/magnus.jpg",
+      "instructorData": {
+        "courseVisitorsCount": 12450,
+        "averageRating": 4.8,
+        "comments": [
+          {
+            "id": "c1",
+            "studentName": "Alice Chen",
+            "studentId": "3",
+            "courseId": "101",
+            "comment": "Excellent endgame strategies!",
+            "rating": 5,
+            "date": "2026-04-15"
+          },
+          {
+            "id": "c2",
+            "studentName": "Bob Williams",
+            "studentId": "4",
+            "courseId": "102",
+            "comment": "Very clear opening explanations",
+            "rating": 4.5,
+            "date": "2026-04-18"
+          }
+        ]
+      },
+      "createdAt": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "email": "wcmartinez@chesstactics.com",
+      "password": "hashedpassword456",
+      "name": "WCM Sofia Martinez",
+      "role": "instructor",
+      "bio": "Women's Candidate Master specializing in tactical patterns",
+      "profileImage": "/instructors/sofia.jpg",
+      "instructorData": {
+        "courseVisitorsCount": 8750,
+        "averageRating": 4.9,
+        "comments": [
+          {
+            "id": "c3",
+            "studentName": "Charlie Davis",
+            "studentId": "5",
+            "courseId": "103",
+            "comment": "Tactics finally make sense!",
+            "rating": 5,
+            "date": "2026-04-20"
+          }
+        ]
+      },
+      "createdAt": "2026-02-15T00:00:00Z"
+    },
+    {
+      "id": "3",
+      "email": "alice.chen@gmail.com",
+      "password": "hashedpassword789",
+      "name": "Alice Chen",
+      "role": "student",
+      "studentData": {
+        "purchasedCourseIds": ["101", "103"],
+        "totalSpent": 250,
+        "memberSince": "2026-03-01"
+      },
+      "createdAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "id": "4",
+      "email": "bob.williams@yahoo.com",
+      "password": "hashedpassword101",
+      "name": "Bob Williams",
+      "role": "student",
+      "studentData": {
+        "purchasedCourseIds": ["102"],
+        "totalSpent": 120,
+        "memberSince": "2026-03-15"
+      },
+      "createdAt": "2026-03-15T00:00:00Z"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "101",
+      "title": "Endgame Mastery: From Basics to Grandmaster",
+      "description": "Learn rook endgames, pawn structures, and theoretical positions",
+      "price": 14999,
+      "instructorId": "1",
+      "category": "Endgame",
+      "level": "Intermediate to Advanced",
+      "duration": "8 hours",
+      "lessonsCount": 24,
+      "imageUrl": "/courses/endgame-mastery.jpg",
+      "visitorsCount": 12450,
+      "averageRating": 4.8,
+      "comments": [
+        {
+          "id": "c1",
+          "studentId": "3",
+          "studentName": "Alice Chen",
+          "comment": "Excellent endgame strategies!",
+          "rating": 5,
+          "date": "2026-04-15"
+        },
+        {
+          "id": "c4",
+          "studentId": "5",
+          "studentName": "Charlie Davis",
+          "comment": "The rook endgame section was eye-opening",
+          "rating": 4.5,
+          "date": "2026-04-19"
+        }
+      ],
+      "createdAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "102",
+      "title": "Opening Repertoire for Club Players",
+      "description": "Build a solid opening repertoire as White and Black",
+      "price": 9999,
+      "instructorId": "1",
+      "category": "Openings",
+      "level": "Beginner to Intermediate",
+      "duration": "6 hours",
+      "lessonsCount": 18,
+      "imageUrl": "/courses/opening-repertoire.jpg",
+      "visitorsCount": 8750,
+      "averageRating": 4.7,
+      "comments": [
+        {
+          "id": "c2",
+          "studentId": "4",
+          "studentName": "Bob Williams",
+          "comment": "Very clear opening explanations",
+          "rating": 4.5,
+          "date": "2026-04-18"
+        }
+      ],
+      "createdAt": "2026-02-01T00:00:00Z"
+    },
+    {
+      "id": "103",
+      "title": "Tactical Patterns: Spotting Combinations Fast",
+      "description": "Master forks, pins, skewers, and discovered attacks",
+      "price": 7999,
+      "instructorId": "2",
+      "category": "Tactics",
+      "level": "All levels",
+      "duration": "5 hours",
+      "lessonsCount": 15,
+      "imageUrl": "/courses/tactical-patterns.jpg",
+      "visitorsCount": 6800,
+      "averageRating": 4.9,
+      "comments": [
+        {
+          "id": "c3",
+          "studentId": "3",
+          "studentName": "Alice Chen",
+          "comment": "Tactics finally make sense!",
+          "rating": 5,
+          "date": "2026-04-20"
+        }
+      ],
+      "createdAt": "2026-02-20T00:00:00Z"
+    }
+  ],
+
+  "purchases": [
+    {
+      "id": "p1",
+      "customerId": "3",
+      "customerName": "Alice Chen",
+      "courseId": "101",
+      "courseTitle": "Endgame Mastery: From Basics to Grandmaster",
+      "instructorId": "1",
+      "amount": 14999,
+      "platformFee": 1499.9,
+      "instructorEarnings": 13499.1,
+      "purchasedAt": "2026-04-05T14:30:00Z"
+    },
+    {
+      "id": "p2",
+      "customerId": "4",
+      "customerName": "Bob Williams",
+      "courseId": "102",
+      "courseTitle": "Opening Repertoire for Club Players",
+      "instructorId": "1",
+      "amount": 9999,
+      "platformFee": 999.9,
+      "instructorEarnings": 8999.1,
+      "purchasedAt": "2026-04-10T09:15:00Z"
+    },
+    {
+      "id": "p3",
+      "customerId": "3",
+      "customerName": "Alice Chen",
+      "courseId": "103",
+      "courseTitle": "Tactical Patterns: Spotting Combinations Fast",
+      "instructorId": "2",
+      "amount": 7999,
+      "platformFee": 799.9,
+      "instructorEarnings": 7199.1,
+      "purchasedAt": "2026-04-18T16:45:00Z"
+    }
+  ]
+}
