@@ -91,7 +91,7 @@ export default async function CourseCategories() {
       {/* تصویر پس‌زمینه با لایه سیاه */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('@/public/1367815-شاه-سیاه-و-سفید-و-شوالیه-شطرنج-روی-پس-زمینه-تیره-تنظیم-شده-اند-مفهوم-رهبر-و-کار-تیمی-برای-موفقیت-مفهوم-شطرنج-نجات-پادشاه-و-نجات-استراتژی.jpg')" }}
+        style={{ backgroundImage: "url('https://boom-zrbn.mohtava.cloud/thumbs/api/v1/image/1eb76882-8ebb-3522-9b9c-95555ad0e47a?zb_svc=fajr-im-prod&zb_dmn=ipm&zb_type=internal&zb_pl=0&zb_referer=zarebin.ir')" }}
       >
         {/* لایه سیاه با شفافیت ۷۵٪ */}
         <div className="absolute inset-0 bg-black/75"></div>

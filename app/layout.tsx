@@ -1,5 +1,6 @@
 import Header from "@/app/components/header";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 export default function RootLayout({
   children,
@@ -11,6 +12,7 @@ export default function RootLayout({
       <body className="bg-black text-white">
         <Header />
         <main className="min-h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
