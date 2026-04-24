@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "defultFont";
+  src: url("../public/Fonts/Vazir-Medium-FD-WOL.woff");
+}
+h1{
+  font-family: "defultFont";
+}
+h2{
+  font-family: "defultFont";
+}
+h3{
+  font-family: "defultFont";
+}
+h4{
+  font-family: "defultFont";
+}
+h5{
+  font-family: "defultFont";
+}
+h6{
+  font-family: "defultFont";
+}
+p{
+  font-family: "defultFont";
+}
 @layer utilities {
   @keyframes slideDown {
     from {
@@ -11,6 +36,9 @@
       transform: translateY(0);
     }
   }
+
+
+
 
   .animate-slideDown {
     animation: slideDown 0.2s ease-out;

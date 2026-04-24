@@ -91,7 +91,7 @@ export default async function CourseCategories() {
       {/* تصویر پس‌زمینه با لایه سیاه */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=1920&h=1080&fit=crop')" }}
+        style={{ backgroundImage: "url('@/public/1367815-شاه-سیاه-و-سفید-و-شوالیه-شطرنج-روی-پس-زمینه-تیره-تنظیم-شده-اند-مفهوم-رهبر-و-کار-تیمی-برای-موفقیت-مفهوم-شطرنج-نجات-پادشاه-و-نجات-استراتژی.jpg')" }}
       >
         {/* لایه سیاه با شفافیت ۷۵٪ */}
         <div className="absolute inset-0 bg-black/75"></div>
