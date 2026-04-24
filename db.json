@@ -17,54 +17,874 @@
     }
   ],
 
+ 
+  "courseCategories": [
+    {
+      "id": "cat1",
+      "name": "گشایش‌ها",
+      "nameEn": "Openings",
+      "slug": "openings",
+      "description": "تسلط بر گشایش‌های شطرنج و ساختن رپرتوار قوی",
+      "shortDescription": "آموزش گشایش‌های معروف شطرنج",
+      "icon": "♟️",
+      "imageUrl": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=400&h=300&fit=crop",
+      "coverImage": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=1200&h=400&fit=crop",
+      "order": 1,
+      "isActive": true,
+      "courseCount": 3,
+      "totalStudents": 12500,
+      "averageRating": 4.8,
+      "seoTitle": "آموزش گشایش‌های شطرنج | دوره‌های تخصصی",
+      "seoDescription": "بهترین دوره‌های آموزش گشایش‌های شطرنج از مبتدی تا پیشرفته",
+      "popularTags": ["سیسیلی", "دفاع فرانسوی", "اسپانیایی", "ایتالیایی"],
+      "featuredInstructors": ["1", "2"],
+      "createdAt": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "cat2",
+      "name": "تاکتیک‌ها",
+      "nameEn": "Tactics",
+      "slug": "tactics",
+      "description": "بهبود الگوهای تاکتیکی و قدرت دید ترکیبی",
+      "shortDescription": "تقویت مهارت تاکتیک در شطرنج",
+      "icon": "⚡",
+      "imageUrl": "https://images.pexels.com/photos/1262789/chess-board-game-strategy-1262789.jpeg?w=400&h=300&fit=crop",
+      "coverImage": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=1200&h=400&fit=crop",
+      "order": 2,
+      "isActive": true,
+      "courseCount": 3,
+      "totalStudents": 18700,
+      "averageRating": 4.9,
+      "seoTitle": "آموزش تاکتیک‌های شطرنج | افزایش قدرت ترکیب‌بینی",
+      "seoDescription": "دوره‌های جامع تاکتیک شطرنج از پایه تا پیشرفته",
+      "popularTags": ["چنگال", "آچمز", "شانه", "کیش و مات"],
+      "featuredInstructors": ["1", "2", "5"],
+      "createdAt": "2026-01-12T00:00:00Z"
+    },
+    {
+      "id": "cat3",
+      "name": "اخراج‌بازی",
+      "nameEn": "Endgame",
+      "slug": "endgames",
+      "description": "یادگیری تکنیک‌های ضروری اخراج‌بازی و پوزیسیون‌های تئوریک",
+      "shortDescription": "تسلط بر پایان بازی شطرنج",
+      "icon": "🏁",
+      "imageUrl": "https://images.unsplash.com/photo-1508836377302-4e1be9a6dd2e?w=400&h=300&fit=crop",
+      "coverImage": "https://images.unsplash.com/photo-1515023115689-589c4b6df7ab?w=1200&h=400&fit=crop",
+      "order": 3,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 9800,
+      "averageRating": 4.7,
+      "seoTitle": "آموزش اخراج‌بازی شطرنج | تکنیک‌های برنده شدن",
+      "seoDescription": "دوره‌های تخصصی اخراج‌بازی شطرنج از مبتدی تا استادبزرگ",
+      "popularTags": ["رخ‌پایانی", "پیاده‌پایانی", "مات اسب و فیل"],
+      "featuredInstructors": ["1", "3"],
+      "createdAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "cat4",
+      "name": "استراتژی",
+      "nameEn": "Strategy",
+      "slug": "strategy",
+      "description": "توسعه درک پوزیسیونی و برنامه‌ریزی بلندمدت",
+      "shortDescription": "بهبود استراتژی و برنامه‌ریزی در شطرنج",
+      "icon": "🎯",
+      "imageUrl": "https://images.pexels.com/photos/4836440/chess-king-game-chess-board-strategy-4836440.jpeg?w=400&h=300&fit=crop",
+      "coverImage": "https://images.pexels.com/photos/4836440/chess-king-game-chess-board-strategy-4836440.jpeg?w=1200&h=400&fit=crop",
+      "order": 4,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 14200,
+      "averageRating": 4.8,
+      "seoTitle": "آموزش استراتژی شطرنج | تفکر استراتژیک در شطرنج",
+      "seoDescription": "دوره‌های پیشرفته استراتژی و پوزیسیون در شطرنج",
+      "popularTags": ["پوزیسیون", "توسعه مهره‌ها", "کنترل مرکز", "پیاده‌ها"],
+      "featuredInstructors": ["2", "4"],
+      "createdAt": "2026-01-18T00:00:00Z"
+    },
+    {
+      "id": "cat5",
+      "name": "محاسبات",
+      "nameEn": "Calculation",
+      "slug": "calculation",
+      "description": "افزایش توانایی محاسبه واریاسیون‌های عمیق",
+      "shortDescription": "تقویت مهارت محاسبات عمیق در شطرنج",
+      "icon": "🧮",
+      "imageUrl": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=400&h=300&fit=crop",
+      "coverImage": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=1200&h=400&fit=crop",
+      "order": 5,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 7600,
+      "averageRating": 4.6,
+      "seoTitle": "آموزش محاسبات پیشرفته شطرنج | افزایش دقت محاسباتی",
+      "seoDescription": "دوره‌های تخصصی محاسبات واریاسیون‌های عمیق در شطرنج",
+      "popularTags": ["محاسبات عمیق", "واریاسیون", "درخت محاسباتی"],
+      "featuredInstructors": ["3", "5"],
+      "createdAt": "2026-01-20T00:00:00Z"
+    },
+    {
+      "id": "cat6",
+      "name": "مبتدیان",
+      "nameEn": "For Beginners",
+      "slug": "beginners",
+      "description": "شروع سفر شطرنج از اصول پایه",
+      "shortDescription": "آموزش شطرنج از صفر تا صد",
+      "icon": "🌟",
+      "imageUrl": "https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?w=400&h=300&fit=crop",
+      "coverImage": "https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?w=1200&h=400&fit=crop",
+      "order": 6,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 25300,
+      "averageRating": 4.9,
+      "seoTitle": "آموزش شطرنج برای مبتدیان | از صفر تا قهرمانی",
+      "seoDescription": "بهترین دوره‌های آموزش شطرنج برای افراد مبتدی",
+      "popularTags": ["یادگیری شطرنج", "حرکات مهره‌ها", "قوانین شطرنج"],
+      "featuredInstructors": ["4", "6"],
+      "createdAt": "2026-01-22T00:00:00Z"
+    },
+    {
+      "id": "cat7",
+      "name": "استادکلاس‌ها",
+      "nameEn": "Masterclasses",
+      "slug": "masterclasses",
+      "description": "یادگیری از استادبزرگان و مربیان نخبه",
+      "shortDescription": "دوره‌های ویژه با تدریس استادبزرگان",
+      "icon": "👑",
+      "imageUrl": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=400&h=300&fit=crop",
+      "coverImage": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=1200&h=400&fit=crop",
+      "order": 7,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 5400,
+      "averageRating": 5.0,
+      "seoTitle": "استادکلاس‌های شطرنج | تدریس توسط استادبزرگان",
+      "seoDescription": "دوره‌های نادر و پیشرفته با تدریس بهترین استادان شطرنج جهان",
+      "popularTags": ["GM", "IM", "WGM", "قهرمانی"],
+      "featuredInstructors": ["1", "2"],
+      "createdAt": "2026-01-25T00:00:00Z"
+    },
+    {
+      "id": "cat8",
+      "name": "سریع و برق‌آسا",
+      "nameEn": "Blitz & Rapid",
+      "slug": "blitz-rapid",
+      "description": "بهبود عملکرد در کنترل زمان‌های سریع‌تر",
+      "shortDescription": "تکنیک‌های بازی سریع و برق‌آسا",
+      "icon": "⏱️",
+      "imageUrl": "https://images.pexels.com/photos/4578822/chess-clock-game-timer-4578822.jpeg?w=400&h=300&fit=crop",
+      "coverImage": "https://images.pexels.com/photos/4578822/chess-clock-game-timer-4578822.jpeg?w=1200&h=400&fit=crop",
+      "order": 8,
+      "isActive": true,
+      "courseCount": 2,
+      "totalStudents": 11100,
+      "averageRating": 4.7,
+      "seoTitle": "آموزش شطرنج سریع و برق‌آسا | مدیریت زمان",
+      "seoDescription": "دوره‌های تخصصی برای بهبود در بازی‌های سریع و برق‌آسا",
+      "popularTags": ["بلیتز", "رپید", "مدیریت زمان"],
+      "featuredInstructors": ["3", "5"],
+      "createdAt": "2026-01-28T00:00:00Z"
+    }
+  ],
+
   "courses": [
     {
       "id": "101",
-      "title": "Endgame Mastery: From Basics to Grandmaster",
-      "description": "Learn rook endgames, pawn structures, and theoretical positions",
-      "price": 14999,
+      "title": "دوره کامل گشایش اسپانیایی",
+      "titleEn": "Complete Spanish Opening Course",
+      "description": "آموزش جامع گشایش اسپانیایی از مبتدی تا پیشرفته شامل تمام واریاسیون‌های اصلی و فرعی",
+      "shortDescription": "تسلط بر گشایش محبوب اسپانیایی",
+      "price": 149990,
       "instructorId": "1",
-      "category": "Endgame",
-      "level": "Intermediate to Advanced",
-      "duration": "8 hours",
-      "imageUrl": "/courses/endgame-mastery.jpg",
-      "visitorsCount": 12450,
-      "averageRating": 4.8,
-      
+      "categoryId": "cat1",
+      "categoryName": "گشایش‌ها",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "8 ساعت",
+      "durationMinutes": 480,
+      "imageUrl": "https://images.unsplash.com/photo-1529699310859-163ef2a1b3b5?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/101/trailer.mp4",
+      "visitorsCount": 8450,
+      "averageRating": 4.9,
+      "lessonsCount": 24,
       "videoContent": {
-        "trailerUrl": "https://your-cdn.com/courses/101/trailer.mp4",
         "lessons": [
           {
             "id": "101-1",
-            "title": "Introduction to Endgames",
+            "title": "مقدمه و مفاهیم پایه گشایش اسپانیایی",
             "duration": "15:30",
             "videoUrl": "https://your-cdn.com/courses/101/lesson1.mp4",
-            "thumbnail": "https://your-cdn.com/courses/101/thumb1.jpg",
+            "thumbnail": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=200&h=150&fit=crop",
             "isPreview": true
           },
           {
             "id": "101-2",
-            "title": "Rook Endgames Fundamentals",
+            "title": "واریاسیون اصلی: تبادل پیاده‌ها",
             "duration": "22:15",
             "videoUrl": "https://your-cdn.com/courses/101/lesson2.mp4",
-            "thumbnail": "https://your-cdn.com/courses/101/thumb2.jpg",
+            "thumbnail": "https://images.unsplash.com/photo-1508836377302-4e1be9a6dd2e?w=200&h=150&fit=crop",
             "isPreview": false
           },
           {
             "id": "101-3",
-            "title": "Pawn Endgames",
+            "title": "دفاع برلین در گشایش اسپانیایی",
             "duration": "18:45",
             "videoUrl": "https://your-cdn.com/courses/101/lesson3.mp4",
-            "thumbnail": "https://your-cdn.com/courses/101/thumb3.jpg",
+            "thumbnail": "https://images.pexels.com/photos/1262789/chess-board-game-strategy-1262789.jpeg?w=200&h=150&fit=crop",
             "isPreview": false
           }
         ]
       },
-      
-      "comments": [],
+      "whatYouWillLearn": [
+        "درک عمیق از گشایش اسپانیایی",
+        "تسلط بر واریاسیون‌های اصلی",
+        "شناخت تله‌های تاکتیکی رایج",
+        "برنامه‌ریزی در میانه بازی پس از گشایش"
+      ],
+      "requirements": ["آشنایی با قوانین پایه شطرنج", "آشنایی با اصول اولیه گشایش"],
+      "targetAudience": ["بازیکنان سطح متوسط", "علاقه‌مندان به گشایش‌های کلاسیک"],
       "createdAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "102",
+      "title": "سیستم هندی سلطنتی برای سیاه",
+      "titleEn": "King's Indian Defense for Black",
+      "description": "یادگیری دفاع قدرتمند هندی سلطنتی برای مقابله با 1.d4",
+      "shortDescription": "سیستم هندی سلطنتی برای مهره سیاه",
+      "price": 129990,
+      "instructorId": "2",
+      "categoryId": "cat1",
+      "categoryName": "گشایش‌ها",
+      "level": "متوسط تا پیشرفته",
+      "levelEn": "Intermediate to Advanced",
+      "duration": "6.5 ساعت",
+      "durationMinutes": 390,
+      "imageUrl": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/102/trailer.mp4",
+      "visitorsCount": 6230,
+      "averageRating": 4.7,
+      "lessonsCount": 18,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "102-1",
+            "title": "فلسفه دفاع هندی سلطنتی",
+            "duration": "14:20",
+            "videoUrl": "https://your-cdn.com/courses/102/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1515023115689-589c4b6df7ab?w=200&h=150&fit=crop",
+            "isPreview": true
+          },
+          {
+            "id": "102-2",
+            "title": "واریاسیون کلاسیک",
+            "duration": "25:30",
+            "videoUrl": "https://your-cdn.com/courses/102/lesson2.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=200&h=150&fit=crop",
+            "isPreview": false
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-01-20T00:00:00Z"
+    },
+    {
+      "id": "103",
+      "title": "دفاع سیسیلی: راهی به سوی پیروزی",
+      "titleEn": "Sicilian Defense: Path to Victory",
+      "description": "استراتژی‌های قدرتمند در دفاع سیسیلی برای بازیکنان جاه‌طلب",
+      "shortDescription": "تسلط بر دفاع سیسیلی",
+      "price": 159990,
+      "instructorId": "1",
+      "categoryId": "cat1",
+      "categoryName": "گشایش‌ها",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "10 ساعت",
+      "durationMinutes": 600,
+      "imageUrl": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/103/trailer.mp4",
+      "visitorsCount": 10200,
+      "averageRating": 4.9,
+      "lessonsCount": 32,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "103-1",
+            "title": "مقدمه بر دفاع سیسیلی",
+            "duration": "12:15",
+            "videoUrl": "https://your-cdn.com/courses/103/lesson1.mp4",
+            "thumbnail": "https://images.pexels.com/photos/4836440/chess-king-game-chess-board-strategy-4836440.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-01-25T00:00:00Z"
+    },
+    {
+      "id": "201",
+      "title": "الگوهای تاکتیکی: چنگال، آچمز و شانه",
+      "titleEn": "Tactical Patterns: Forks, Pins, and Skewers",
+      "description": "شناخت و استفاده از مهم‌ترین الگوهای تاکتیکی در شطرنج",
+      "shortDescription": "تسلط بر تاکتیک‌های پایه",
+      "price": 89990,
+      "instructorId": "2",
+      "categoryId": "cat2",
+      "categoryName": "تاکتیک‌ها",
+      "level": "مبتدی تا متوسط",
+      "levelEn": "Beginner to Intermediate",
+      "duration": "5 ساعت",
+      "durationMinutes": 300,
+      "imageUrl": "https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/201/trailer.mp4",
+      "visitorsCount": 15300,
+      "averageRating": 4.8,
+      "lessonsCount": 15,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "201-1",
+            "title": "چنگال: قوی‌ترین سلاح تاکتیکی",
+            "duration": "18:30",
+            "videoUrl": "https://your-cdn.com/courses/201/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-02-01T00:00:00Z"
+    },
+    {
+      "id": "202",
+      "title": "تاکتیک‌های پیشرفته: قربانی و ترکیبات",
+      "titleEn": "Advanced Tactics: Sacrifices and Combinations",
+      "description": "یادگیری ترکیبات پیچیده و قربانی‌های محاسبه شده",
+      "shortDescription": "تاکتیک‌های پیشرفته برای بازیکنان حرفه‌ای",
+      "price": 119990,
+      "instructorId": "5",
+      "categoryId": "cat2",
+      "categoryName": "تاکتیک‌ها",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "7 ساعت",
+      "durationMinutes": 420,
+      "imageUrl": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/202/trailer.mp4",
+      "visitorsCount": 8900,
+      "averageRating": 4.9,
+      "lessonsCount": 21,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "202-1",
+            "title": "قربانی‌های کلاسیک",
+            "duration": "20:45",
+            "videoUrl": "https://your-cdn.com/courses/202/lesson1.mp4",
+            "thumbnail": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-02-10T00:00:00Z"
+    },
+    {
+      "id": "203",
+      "title": "تاکتیک در زمان محدود: بلیتز و رپید",
+      "titleEn": "Tactics in Time Trouble: Blitz & Rapid",
+      "description": "بهبود تشخیص تاکتیکی در شرایط فشار زمانی",
+      "shortDescription": "تاکتیک برای بازی‌های سریع",
+      "price": 99990,
+      "instructorId": "3",
+      "categoryId": "cat2",
+      "categoryName": "تاکتیک‌ها",
+      "level": "متوسط",
+      "levelEn": "Intermediate",
+      "duration": "4.5 ساعت",
+      "durationMinutes": 270,
+      "imageUrl": "https://images.pexels.com/photos/4578822/chess-clock-game-timer-4578822.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/203/trailer.mp4",
+      "visitorsCount": 11200,
+      "averageRating": 4.7,
+      "lessonsCount": 14,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "203-1",
+            "title": "مدیریت زمان و تاکتیک",
+            "duration": "16:00",
+            "videoUrl": "https://your-cdn.com/courses/203/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-02-15T00:00:00Z"
+    },
+    {
+      "id": "301",
+      "title": "اخراج‌بازی پیاده: کلید پیروزی",
+      "titleEn": "Pawn Endgames: Key to Victory",
+      "description": "مهم‌ترین مفاهیم اخراج‌بازی پیاده از مبتدی تا استاد",
+      "shortDescription": "تسلط بر اخراج‌بازی پیاده",
+      "price": 109990,
+      "instructorId": "1",
+      "categoryId": "cat3",
+      "categoryName": "اخراج‌بازی",
+      "level": "متوسط",
+      "levelEn": "Intermediate",
+      "duration": "6 ساعت",
+      "durationMinutes": 360,
+      "imageUrl": "https://images.unsplash.com/photo-1508836377302-4e1be9a6dd2e?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/301/trailer.mp4",
+      "visitorsCount": 7450,
+      "averageRating": 4.8,
+      "lessonsCount": 18,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "301-1",
+            "title": "مفاهیم پایه اخراج‌بازی پیاده",
+            "duration": "19:30",
+            "videoUrl": "https://your-cdn.com/courses/301/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-02-20T00:00:00Z"
+    },
+    {
+      "id": "302",
+      "title": "اخراج‌بازی رخ‌ها",
+      "titleEn": "Rook Endgames",
+      "description": "اصول و تکنیک‌های اخراج‌بازی رخ، رایج‌ترین پایان بازی",
+      "shortDescription": "تسلط بر اخراج‌بازی رخ",
+      "price": 129990,
+      "instructorId": "3",
+      "categoryId": "cat3",
+      "categoryName": "اخراج‌بازی",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "7.5 ساعت",
+      "durationMinutes": 450,
+      "imageUrl": "https://images.pexels.com/photos/1262789/chess-board-game-strategy-1262789.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/302/trailer.mp4",
+      "visitorsCount": 6320,
+      "averageRating": 4.9,
+      "lessonsCount": 22,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "302-1",
+            "title": "پوزیسیون‌های پایه رخ",
+            "duration": "17:15",
+            "videoUrl": "https://your-cdn.com/courses/302/lesson1.mp4",
+            "thumbnail": "https://images.pexels.com/photos/4836440/chess-king-game-chess-board-strategy-4836440.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-02-25T00:00:00Z"
+    },
+    {
+      "id": "401",
+      "title": "استراتژی پوزیسیونی: ارزیابی و برنامه‌ریزی",
+      "titleEn": "Positional Strategy: Evaluation & Planning",
+      "description": "یادگیری ارزیابی صحیح پوزیسیون و برنامه‌ریزی بلندمدت",
+      "shortDescription": "توسعه تفکر استراتژیک",
+      "price": 139990,
+      "instructorId": "2",
+      "categoryId": "cat4",
+      "categoryName": "استراتژی",
+      "level": "متوسط تا پیشرفته",
+      "levelEn": "Intermediate to Advanced",
+      "duration": "8.5 ساعت",
+      "durationMinutes": 510,
+      "imageUrl": "https://images.unsplash.com/photo-1515023115689-589c4b6df7ab?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/401/trailer.mp4",
+      "visitorsCount": 9850,
+      "averageRating": 4.8,
+      "lessonsCount": 26,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "401-1",
+            "title": "اصول ارزیابی پوزیسیون",
+            "duration": "21:00",
+            "videoUrl": "https://your-cdn.com/courses/401/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1529699310859-163ef2a1b3b5?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "id": "402",
+      "title": "پیاده‌ها: روح شطرنج",
+      "titleEn": "Pawns: The Soul of Chess",
+      "description": "درک عمیق از ساختارهای پیاده و تأثیر آن بر استراتژی",
+      "shortDescription": "تخصص در ساختارهای پیاده",
+      "price": 119990,
+      "instructorId": "4",
+      "categoryId": "cat4",
+      "categoryName": "استراتژی",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "7 ساعت",
+      "durationMinutes": 420,
+      "imageUrl": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/402/trailer.mp4",
+      "visitorsCount": 7820,
+      "averageRating": 4.7,
+      "lessonsCount": 20,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "402-1",
+            "title": "ساختارهای پیاده کلاسیک",
+            "duration": "18:45",
+            "videoUrl": "https://your-cdn.com/courses/402/lesson1.mp4",
+            "thumbnail": "https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-05T00:00:00Z"
+    },
+    {
+      "id": "501",
+      "title": "محاسبات واریاسیون: از پایه تا پیشرفته",
+      "titleEn": "Calculation: From Basics to Advanced",
+      "description": "روش‌های سیستماتیک برای محاسبه دقیق واریاسیون‌ها",
+      "shortDescription": "تقویت مهارت محاسباتی",
+      "price": 99990,
+      "instructorId": "3",
+      "categoryId": "cat5",
+      "categoryName": "محاسبات",
+      "level": "متوسط",
+      "levelEn": "Intermediate",
+      "duration": "6.5 ساعت",
+      "durationMinutes": 390,
+      "imageUrl": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/501/trailer.mp4",
+      "visitorsCount": 11200,
+      "averageRating": 4.6,
+      "lessonsCount": 19,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "501-1",
+            "title": "اصول محاسبه واریاسیون",
+            "duration": "16:30",
+            "videoUrl": "https://your-cdn.com/courses/501/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1508836377302-4e1be9a6dd2e?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-10T00:00:00Z"
+    },
+    {
+      "id": "502",
+      "title": "محاسبات عمیق: تکنیک‌های استادبزرگان",
+      "titleEn": "Deep Calculation: Grandmaster Techniques",
+      "description": "روش‌های پیشرفته محاسباتی مورد استفاده استادبزرگان",
+      "shortDescription": "محاسبات در سطح استادبزرگ",
+      "price": 149990,
+      "instructorId": "5",
+      "categoryId": "cat5",
+      "categoryName": "محاسبات",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "9 ساعت",
+      "durationMinutes": 540,
+      "imageUrl": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/502/trailer.mp4",
+      "visitorsCount": 5430,
+      "averageRating": 4.9,
+      "lessonsCount": 27,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "502-1",
+            "title": "ذهنیت محاسباتی",
+            "duration": "22:30",
+            "videoUrl": "https://your-cdn.com/courses/502/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-15T00:00:00Z"
+    },
+    {
+      "id": "601",
+      "title": "شطرنج از صفر: دوره جامع مبتدیان",
+      "titleEn": "Chess from Zero: Complete Beginner Course",
+      "description": "یادگیری کامل شطرنج از قوانین پایه تا استراتژی‌های اولیه",
+      "shortDescription": "آموزش کامل شطرنج برای مبتدیان",
+      "price": 79990,
+      "instructorId": "4",
+      "categoryId": "cat6",
+      "categoryName": "مبتدیان",
+      "level": "مبتدی",
+      "levelEn": "Beginner",
+      "duration": "8 ساعت",
+      "durationMinutes": 480,
+      "imageUrl": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/601/trailer.mp4",
+      "visitorsCount": 21200,
+      "averageRating": 4.9,
+      "lessonsCount": 25,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "601-1",
+            "title": "آشنایی با صفحه و مهره‌ها",
+            "duration": "14:00",
+            "videoUrl": "https://your-cdn.com/courses/601/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1515023115689-589c4b6df7ab?w=200&h=150&fit=crop",
+            "isPreview": true
+          },
+          {
+            "id": "601-2",
+            "title": "حرکات مهره‌ها به زبان ساده",
+            "duration": "19:30",
+            "videoUrl": "https://your-cdn.com/courses/601/lesson2.mp4",
+            "thumbnail": "https://images.pexels.com/photos/1262789/chess-board-game-strategy-1262789.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          },
+          {
+            "id": "601-3",
+            "title": "قوانین خاص: قلعه رفتن و آن پاسان",
+            "duration": "16:45",
+            "videoUrl": "https://your-cdn.com/courses/601/lesson3.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=200&h=150&fit=crop",
+            "isPreview": false
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-20T00:00:00Z"
+    },
+    {
+      "id": "602",
+      "title": "راه صدساله: از مبتدی تا بازیکن باشگاهی",
+      "titleEn": "The Long Road: From Beginner to Club Player",
+      "description": "مسیری گام‌به‌گام برای پیشرفت در شطرنج",
+      "shortDescription": "پیشرفت سریع در شطرنج",
+      "price": 99990,
+      "instructorId": "6",
+      "categoryId": "cat6",
+      "categoryName": "مبتدیان",
+      "level": "مبتدی تا متوسط",
+      "levelEn": "Beginner to Intermediate",
+      "duration": "10 ساعت",
+      "durationMinutes": 600,
+      "imageUrl": "https://images.pexels.com/photos/4578822/chess-clock-game-timer-4578822.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/602/trailer.mp4",
+      "visitorsCount": 17800,
+      "averageRating": 4.8,
+      "lessonsCount": 30,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "602-1",
+            "title": "برنامه تمرینی هفتگی",
+            "duration": "15:30",
+            "videoUrl": "https://your-cdn.com/courses/602/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1529699310859-163ef2a1b3b5?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-03-25T00:00:00Z"
+    },
+    {
+      "id": "701",
+      "title": "استادکلاس: تکنیک‌های قهرمانان جهان",
+      "titleEn": "Masterclass: World Champion Techniques",
+      "description": "آموزش پیشرفته با آنالیز بازی‌های قهرمانان جهان",
+      "shortDescription": "تکنیک‌های سطح استادبزرگ",
+      "price": 199990,
+      "instructorId": "1",
+      "categoryId": "cat7",
+      "categoryName": "استادکلاس‌ها",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "12 ساعت",
+      "durationMinutes": 720,
+      "imageUrl": "https://images.unsplash.com/photo-1529699310859-163ef2a1b3b5?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/701/trailer.mp4",
+      "visitorsCount": 3450,
+      "averageRating": 5.0,
+      "lessonsCount": 35,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "701-1",
+            "title": "تحلیل بازی‌های کاسپاروف",
+            "duration": "25:00",
+            "videoUrl": "https://your-cdn.com/courses/701/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": "702",
+      "title": "استادکلاس: هنر حمله در شطرنج",
+      "titleEn": "Masterclass: The Art of Attack in Chess",
+      "description": "یادگیری حملات مرگبار و تکنیک‌های هجومی",
+      "shortDescription": "هنر حمله در شطرنج",
+      "price": 179990,
+      "instructorId": "2",
+      "categoryId": "cat7",
+      "categoryName": "استادکلاس‌ها",
+      "level": "پیشرفته",
+      "levelEn": "Advanced",
+      "duration": "9 ساعت",
+      "durationMinutes": 540,
+      "imageUrl": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/702/trailer.mp4",
+      "visitorsCount": 4100,
+      "averageRating": 4.9,
+      "lessonsCount": 28,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "702-1",
+            "title": "اصول حمله به شاه",
+            "duration": "22:30",
+            "videoUrl": "https://your-cdn.com/courses/702/lesson1.mp4",
+            "thumbnail": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-04-05T00:00:00Z"
+    },
+    {
+      "id": "801",
+      "title": "تکنیک‌های بلیتز: برنده شدن در ۳ دقیقه",
+      "titleEn": "Blitz Techniques: Winning in 3 Minutes",
+      "description": "استراتژی‌های ویژه برای موفقیت در بازی‌های بلیتز",
+      "shortDescription": "تکنیک‌های بلیتز حرفه‌ای",
+      "price": 89990,
+      "instructorId": "3",
+      "categoryId": "cat8",
+      "categoryName": "سریع و برق‌آسا",
+      "level": "متوسط تا پیشرفته",
+      "levelEn": "Intermediate to Advanced",
+      "duration": "5 ساعت",
+      "durationMinutes": 300,
+      "imageUrl": "https://images.pexels.com/photos/4578822/chess-clock-game-timer-4578822.jpeg?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/801/trailer.mp4",
+      "visitorsCount": 8900,
+      "averageRating": 4.8,
+      "lessonsCount": 16,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "801-1",
+            "title": "مدیریت زمان در بلیتز",
+            "duration": "14:30",
+            "videoUrl": "https://your-cdn.com/courses/801/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1508836377302-4e1be9a6dd2e?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-04-10T00:00:00Z"
+    },
+    {
+      "id": "802",
+      "title": "رپید مستر: تسلط بر بازی‌های ۱۵ دقیقه‌ای",
+      "titleEn": "Rapid Master: Mastering 15-Minute Games",
+      "description": "بهبود عملکرد در بازی‌های رپید با زمان ۱۵ دقیقه",
+      "shortDescription": "تسلط بر بازی‌های رپید",
+      "price": 109990,
+      "instructorId": "5",
+      "categoryId": "cat8",
+      "categoryName": "سریع و برق‌آسا",
+      "level": "متوسط",
+      "levelEn": "Intermediate",
+      "duration": "6.5 ساعت",
+      "durationMinutes": 390,
+      "imageUrl": "https://images.unsplash.com/photo-1543157144-f78c636d023d?w=600&h=400&fit=crop",
+      "trailerUrl": "https://your-cdn.com/courses/802/trailer.mp4",
+      "visitorsCount": 6700,
+      "averageRating": 4.6,
+      "lessonsCount": 20,
+      "videoContent": {
+        "lessons": [
+          {
+            "id": "802-1",
+            "title": "تفاوت بازی رپید با کلاسیک",
+            "duration": "18:00",
+            "videoUrl": "https://your-cdn.com/courses/802/lesson1.mp4",
+            "thumbnail": "https://images.unsplash.com/photo-1459682687441-7761439f7096?w=200&h=150&fit=crop",
+            "isPreview": true
+          }
+        ]
+      },
+      "whatYouWillLearn": [],
+      "requirements": [],
+      "targetAudience": [],
+      "createdAt": "2026-04-12T00:00:00Z"
     }
   ],
+
 
   "purchases": [
     {
