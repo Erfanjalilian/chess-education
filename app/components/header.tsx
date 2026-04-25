@@ -38,11 +38,13 @@ const Header = () => {
             ))}
           </div>
 
-          {/* Login/Signup Button (Persian) */}
+          {/* Login/Signup Button (Persian) - لینک دار */}
           <div className="hidden md:block">
-            <button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-lg transition-all duration-200 transform hover:scale-105">
-              ورود / ثبت‌نام
-            </button>
+            <Link href="/login">
+              <button className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-lg transition-all duration-200 transform hover:scale-105">
+                ورود / ثبت‌نام
+              </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -92,9 +94,11 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-2">
-                <button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-lg transition-all">
-                  ورود / ثبت‌نام
-                </button>
+                <Link href="/login" onClick={() => setIsMenuOpen(false)}>
+                  <button className="w-full bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-lg transition-all">
+                    ورود / ثبت‌نام
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
