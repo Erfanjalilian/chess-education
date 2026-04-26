@@ -16,8 +16,6 @@
       "createdAt": "2026-01-10T00:00:00Z"
     }
   ],
-
- 
   "courseCategories": [
     {
       "id": "cat1",
@@ -36,8 +34,16 @@
       "averageRating": 4.8,
       "seoTitle": "آموزش گشایش‌های شطرنج | دوره‌های تخصصی",
       "seoDescription": "بهترین دوره‌های آموزش گشایش‌های شطرنج از مبتدی تا پیشرفته",
-      "popularTags": ["سیسیلی", "دفاع فرانسوی", "اسپانیایی", "ایتالیایی"],
-      "featuredInstructors": ["1", "2"],
+      "popularTags": [
+        "سیسیلی",
+        "دفاع فرانسوی",
+        "اسپانیایی",
+        "ایتالیایی"
+      ],
+      "featuredInstructors": [
+        "1",
+        "2"
+      ],
       "createdAt": "2026-01-10T00:00:00Z"
     },
     {
@@ -57,8 +63,17 @@
       "averageRating": 4.9,
       "seoTitle": "آموزش تاکتیک‌های شطرنج | افزایش قدرت ترکیب‌بینی",
       "seoDescription": "دوره‌های جامع تاکتیک شطرنج از پایه تا پیشرفته",
-      "popularTags": ["چنگال", "آچمز", "شانه", "کیش و مات"],
-      "featuredInstructors": ["1", "2", "5"],
+      "popularTags": [
+        "چنگال",
+        "آچمز",
+        "شانه",
+        "کیش و مات"
+      ],
+      "featuredInstructors": [
+        "1",
+        "2",
+        "5"
+      ],
       "createdAt": "2026-01-12T00:00:00Z"
     },
     {
@@ -78,8 +93,15 @@
       "averageRating": 4.7,
       "seoTitle": "آموزش اخراج‌بازی شطرنج | تکنیک‌های برنده شدن",
       "seoDescription": "دوره‌های تخصصی اخراج‌بازی شطرنج از مبتدی تا استادبزرگ",
-      "popularTags": ["رخ‌پایانی", "پیاده‌پایانی", "مات اسب و فیل"],
-      "featuredInstructors": ["1", "3"],
+      "popularTags": [
+        "رخ‌پایانی",
+        "پیاده‌پایانی",
+        "مات اسب و فیل"
+      ],
+      "featuredInstructors": [
+        "1",
+        "3"
+      ],
       "createdAt": "2026-01-15T00:00:00Z"
     },
     {
@@ -99,8 +121,16 @@
       "averageRating": 4.8,
       "seoTitle": "آموزش استراتژی شطرنج | تفکر استراتژیک در شطرنج",
       "seoDescription": "دوره‌های پیشرفته استراتژی و پوزیسیون در شطرنج",
-      "popularTags": ["پوزیسیون", "توسعه مهره‌ها", "کنترل مرکز", "پیاده‌ها"],
-      "featuredInstructors": ["2", "4"],
+      "popularTags": [
+        "پوزیسیون",
+        "توسعه مهره‌ها",
+        "کنترل مرکز",
+        "پیاده‌ها"
+      ],
+      "featuredInstructors": [
+        "2",
+        "4"
+      ],
       "createdAt": "2026-01-18T00:00:00Z"
     },
     {
@@ -120,8 +150,15 @@
       "averageRating": 4.6,
       "seoTitle": "آموزش محاسبات پیشرفته شطرنج | افزایش دقت محاسباتی",
       "seoDescription": "دوره‌های تخصصی محاسبات واریاسیون‌های عمیق در شطرنج",
-      "popularTags": ["محاسبات عمیق", "واریاسیون", "درخت محاسباتی"],
-      "featuredInstructors": ["3", "5"],
+      "popularTags": [
+        "محاسبات عمیق",
+        "واریاسیون",
+        "درخت محاسباتی"
+      ],
+      "featuredInstructors": [
+        "3",
+        "5"
+      ],
       "createdAt": "2026-01-20T00:00:00Z"
     },
     {
@@ -141,8 +178,15 @@
       "averageRating": 4.9,
       "seoTitle": "آموزش شطرنج برای مبتدیان | از صفر تا قهرمانی",
       "seoDescription": "بهترین دوره‌های آموزش شطرنج برای افراد مبتدی",
-      "popularTags": ["یادگیری شطرنج", "حرکات مهره‌ها", "قوانین شطرنج"],
-      "featuredInstructors": ["4", "6"],
+      "popularTags": [
+        "یادگیری شطرنج",
+        "حرکات مهره‌ها",
+        "قوانین شطرنج"
+      ],
+      "featuredInstructors": [
+        "4",
+        "6"
+      ],
       "createdAt": "2026-01-22T00:00:00Z"
     },
     {
@@ -159,11 +203,19 @@
       "isActive": true,
       "courseCount": 2,
       "totalStudents": 5400,
-      "averageRating": 5.0,
+      "averageRating": 5,
       "seoTitle": "استادکلاس‌های شطرنج | تدریس توسط استادبزرگان",
       "seoDescription": "دوره‌های نادر و پیشرفته با تدریس بهترین استادان شطرنج جهان",
-      "popularTags": ["GM", "IM", "WGM", "قهرمانی"],
-      "featuredInstructors": ["1", "2"],
+      "popularTags": [
+        "GM",
+        "IM",
+        "WGM",
+        "قهرمانی"
+      ],
+      "featuredInstructors": [
+        "1",
+        "2"
+      ],
       "createdAt": "2026-01-25T00:00:00Z"
     },
     {
@@ -183,12 +235,18 @@
       "averageRating": 4.7,
       "seoTitle": "آموزش شطرنج سریع و برق‌آسا | مدیریت زمان",
       "seoDescription": "دوره‌های تخصصی برای بهبود در بازی‌های سریع و برق‌آسا",
-      "popularTags": ["بلیتز", "رپید", "مدیریت زمان"],
-      "featuredInstructors": ["3", "5"],
+      "popularTags": [
+        "بلیتز",
+        "رپید",
+        "مدیریت زمان"
+      ],
+      "featuredInstructors": [
+        "3",
+        "5"
+      ],
       "createdAt": "2026-01-28T00:00:00Z"
     }
   ],
-
   "courses": [
     {
       "id": "101",
@@ -243,8 +301,14 @@
         "شناخت تله‌های تاکتیکی رایج",
         "برنامه‌ریزی در میانه بازی پس از گشایش"
       ],
-      "requirements": ["آشنایی با قوانین پایه شطرنج", "آشنایی با اصول اولیه گشایش"],
-      "targetAudience": ["بازیکنان سطح متوسط", "علاقه‌مندان به گشایش‌های کلاسیک"],
+      "requirements": [
+        "آشنایی با قوانین پایه شطرنج",
+        "آشنایی با اصول اولیه گشایش"
+      ],
+      "targetAudience": [
+        "بازیکنان سطح متوسط",
+        "علاقه‌مندان به گشایش‌های کلاسیک"
+      ],
       "createdAt": "2026-01-15T00:00:00Z"
     },
     {
@@ -756,7 +820,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1529699310859-163ef2a1b3b5?w=600&h=400&fit=crop",
       "trailerUrl": "https://your-cdn.com/courses/701/trailer.mp4",
       "visitorsCount": 3450,
-      "averageRating": 5.0,
+      "averageRating": 5,
       "lessonsCount": 35,
       "videoContent": {
         "lessons": [
@@ -884,8 +948,6 @@
       "createdAt": "2026-04-12T00:00:00Z"
     }
   ],
-
-
   "purchases": [
     {
       "id": "p1",
@@ -898,19 +960,20 @@
       "platformFee": 1499.9,
       "instructorEarnings": 13499.1,
       "purchasedAt": "2026-04-05T14:30:00Z",
-      
       "access": {
         "granted": true,
         "expiresAt": null,
         "lastWatched": "2026-04-20T10:00:00Z",
         "progress": {
-          "completedLessons": ["101-1", "101-2"],
+          "completedLessons": [
+            "101-1",
+            "101-2"
+          ],
           "totalWatchTime": 2275
         }
       }
     }
   ],
-
   "userProgress": [
     {
       "id": "up1",
@@ -949,7 +1012,12 @@
         "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
         "role": "استاد بزرگ"
       },
-      "tags": ["تاکتیک", "آموزش", "پازل", "ترکیبات"],
+      "tags": [
+        "تاکتیک",
+        "آموزش",
+        "پازل",
+        "ترکیبات"
+      ],
       "readingTime": 8,
       "viewCount": 12500,
       "likes": 342,
@@ -977,7 +1045,12 @@
         "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
         "role": "استاد بین‌المللی"
       },
-      "tags": ["گشایش", "سیسیلی", "دفاع", "آموزش پیشرفته"],
+      "tags": [
+        "گشایش",
+        "سیسیلی",
+        "دفاع",
+        "آموزش پیشرفته"
+      ],
       "readingTime": 12,
       "viewCount": 8750,
       "likes": 234,
@@ -1005,7 +1078,12 @@
         "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
         "role": "استاد بزرگ"
       },
-      "tags": ["اخراج‌بازی", "استراتژی", "پایان بازی", "پیروزی"],
+      "tags": [
+        "اخراج‌بازی",
+        "استراتژی",
+        "پایان بازی",
+        "پیروزی"
+      ],
       "readingTime": 10,
       "viewCount": 6320,
       "likes": 187,
@@ -1033,7 +1111,12 @@
         "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
         "role": "مربی ارشد"
       },
-      "tags": ["ریتینگ", "تمرین", "پیشرفت", "برنامه تمرینی"],
+      "tags": [
+        "ریتینگ",
+        "تمرین",
+        "پیشرفت",
+        "برنامه تمرینی"
+      ],
       "readingTime": 15,
       "viewCount": 24300,
       "likes": 856,
@@ -1061,7 +1144,12 @@
         "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
         "role": "استاد بزرگ"
       },
-      "tags": ["مبتدیان", "اشتباهات", "آموزش", "پیشرفت"],
+      "tags": [
+        "مبتدیان",
+        "اشتباهات",
+        "آموزش",
+        "پیشرفت"
+      ],
       "readingTime": 9,
       "viewCount": 18700,
       "likes": 523,
@@ -1089,7 +1177,12 @@
         "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
         "role": "استاد بین‌المللی"
       },
-      "tags": ["نرم‌افزار", "آنالیز", "ابزارها", "تکنولوژی"],
+      "tags": [
+        "نرم‌افزار",
+        "آنالیز",
+        "ابزارها",
+        "تکنولوژی"
+      ],
       "readingTime": 7,
       "viewCount": 5210,
       "likes": 145,
@@ -1117,7 +1210,12 @@
         "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
         "role": "استاد بزرگ"
       },
-      "tags": ["حمله", "قربانی", "مات", "تاکتیک هجومی"],
+      "tags": [
+        "حمله",
+        "قربانی",
+        "مات",
+        "تاکتیک هجومی"
+      ],
       "readingTime": 11,
       "viewCount": 9840,
       "likes": 267,
@@ -1145,7 +1243,12 @@
         "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
         "role": "مربی ارشد"
       },
-      "tags": ["بلیتز", "رپید", "مدیریت زمان", "استراتژی"],
+      "tags": [
+        "بلیتز",
+        "رپید",
+        "مدیریت زمان",
+        "استراتژی"
+      ],
       "readingTime": 8,
       "viewCount": 7560,
       "likes": 198,
@@ -1155,6 +1258,65 @@
       "publishedAt": "2026-04-22T10:00:00Z",
       "createdAt": "2026-04-19T14:00:00Z",
       "updatedAt": "2026-04-23T12:00:00Z"
+    },
+    {
+      "title": "مقاله ی تستی",
+      "titleEn": "",
+      "slug": "م",
+      "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است",
+      "content": "",
+      "coverImage": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+      "category": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است",
+      "categorySlug": "",
+      "tags": [
+        "آموزش"
+      ],
+      "readingTime": 5,
+      "status": "published",
+      "isFeatured": false,
+      "author": {
+        "id": "1",
+        "name": "امیرحسین قاسمی",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+        "role": "مدیر سایت"
+      },
+      "viewCount": 0,
+      "likes": 0,
+      "commentsCount": 0,
+      "publishedAt": "2026-04-26T10:05:50.390Z",
+      "createdAt": "2026-04-26T10:05:50.390Z",
+      "updatedAt": "2026-04-26T10:05:50.390Z",
+      "id": "54FqriIJY2k"
+    },
+    {
+      "title": "مقاله ی تستی",
+      "titleEn": "",
+      "slug": "م",
+      "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است",
+      "content": "",
+      "coverImage": "https://boom-zrbn.mohtava.cloud/thumbs/api/v1/image/bb7d5209-5b49-3c7f-a642-72d75d78ffc9?zb_svc=fajr-im-prod&zb_dmn=ipm&zb_type=internal&zb_pl=0&zb_referer=zarebin.ir",
+      "category": "",
+      "categorySlug": "",
+      "tags": [
+        "آموزش"
+      ],
+      "readingTime": 5,
+      "status": "published",
+      "isFeatured": false,
+      "author": {
+        "id": "1",
+        "name": "امیرحسین قاسمی",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+        "role": "مدیر سایت"
+      },
+      "viewCount": 0,
+      "likes": 0,
+      "commentsCount": 0,
+      "publishedAt": "2026-04-26T10:07:45.839Z",
+      "createdAt": "2026-04-26T10:07:45.840Z",
+      "updatedAt": "2026-04-26T10:07:45.840Z",
+      "id": "qsL3S8goZ80"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
