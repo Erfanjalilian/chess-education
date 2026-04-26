@@ -1621,6 +1621,79 @@
       "isActive": false,
       "displayOrder": 5
     }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg1",
+      "name": "احمدرضا محمدی",
+      "email": "ahmadreza@example.com",
+      "phone": "۰۹۱۲۳۴۵۶۷۸۹",
+      "subject": "support",
+      "subjectLabel": "پشتیبانی و مشکلات فنی",
+      "message": "سلام، من هنگام تماشای دوره‌های آموزشی با مشکل قطعی صدا مواجه می‌شوم. لطفاً راهنمایی کنید.",
+      "status": "read",
+      "isRead": true,
+      "isReplied": false,
+      "createdAt": "2026-04-20T10:30:00Z",
+      "updatedAt": "2026-04-21T09:00:00Z"
+    },
+    {
+      "id": "msg2",
+      "name": "سارا کریمی",
+      "email": "sara.karimi@example.com",
+      "phone": "۰۹۳۵۶۷۸۹۰۱۲",
+      "subject": "sales",
+      "subjectLabel": "مشاوره خرید دوره",
+      "message": "سلام، من می‌خواهم دوره استادکلاس گشایش اسپانیایی را تهیه کنم. آیا تخفیف ویژه برای دانشجویان دارید؟",
+      "status": "unread",
+      "isRead": false,
+      "isReplied": false,
+      "createdAt": "2026-04-22T14:15:00Z",
+      "updatedAt": null
+    },
+    {
+      "id": "msg3",
+      "name": "رضا نوروزی",
+      "email": "reza.noroozi@example.com",
+      "phone": "۰۹۰۱۲۳۴۵۶۷۸",
+      "subject": "partnership",
+      "subjectLabel": "همکاری و مشارکت",
+      "message": "سلام، من یک مربی شطرنج هستم و می‌خواهم دوره‌های خود را در پلتفرم شما ارائه دهم. شرایط همکاری چیست؟",
+      "status": "read",
+      "isRead": true,
+      "isReplied": true,
+      "createdAt": "2026-04-18T11:00:00Z",
+      "updatedAt": "2026-04-19T16:30:00Z"
+    },
+    {
+      "id": "msg4",
+      "name": "مریم حسینی",
+      "email": "maryam.hosseini@example.com",
+      "phone": null,
+      "subject": "suggestion",
+      "subjectLabel": "پیشنهادات و انتقادات",
+      "message": "پیشنهاد می‌کنم بخش تمرینات تعاملی با هوش مصنوعی به سایت اضافه کنید. بسیار عالی خواهد بود.",
+      "status": "read",
+      "isRead": true,
+      "isReplied": false,
+      "createdAt": "2026-04-19T09:45:00Z",
+      "updatedAt": "2026-04-20T10:00:00Z"
+    },
+    {
+      "id": "msg5",
+      "name": "علی رضایی",
+      "email": "ali.rezaei@example.com",
+      "phone": "۰۹۳۹۸۷۶۵۴۳۲",
+      "subject": "other",
+      "subjectLabel": "سایر موارد",
+      "message": "سلام، لطفاً درخواست من را در بخش پشتیبانی بررسی کنید. شماره تیکت: #1234",
+      "status": "unread",
+      "isRead": false,
+      "isReplied": false,
+      "createdAt": "2026-04-23T08:00:00Z",
+      "updatedAt": null
+    }
   ]
+
 
 }
