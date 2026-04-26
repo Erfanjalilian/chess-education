@@ -1569,6 +1569,58 @@
       "isActive": false,
       "displayOrder": 5
     }
+  ],
+  "socialLinks": [
+    {
+      "id": "1",
+      "platform": "instagram",
+      "name": "اینستاگرام",
+      "nameEn": "Instagram",
+      "url": "https://instagram.com/chesshub",
+      "icon": "instagram",
+      "isActive": true,
+      "displayOrder": 1
+    },
+    {
+      "id": "2",
+      "platform": "telegram",
+      "name": "تلگرام",
+      "nameEn": "Telegram",
+      "url": "https://t.me/chesshub",
+      "icon": "telegram",
+      "isActive": true,
+      "displayOrder": 2
+    },
+    {
+      "id": "3",
+      "platform": "linkedin",
+      "name": "لینکدین",
+      "nameEn": "LinkedIn",
+      "url": "https://linkedin.com/company/chesshub",
+      "icon": "linkedin",
+      "isActive": true,
+      "displayOrder": 3
+    },
+    {
+      "id": "4",
+      "platform": "github",
+      "name": "گیت‌هاب",
+      "nameEn": "GitHub",
+      "url": "https://github.com/chesshub",
+      "icon": "github",
+      "isActive": true,
+      "displayOrder": 4
+    },
+    {
+      "id": "5",
+      "platform": "twitter",
+      "name": "توییتر",
+      "nameEn": "Twitter",
+      "url": "https://twitter.com/chesshub",
+      "icon": "twitter",
+      "isActive": false,
+      "displayOrder": 5
+    }
   ]
 
 }
