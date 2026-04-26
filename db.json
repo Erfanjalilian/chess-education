@@ -1318,7 +1318,7 @@
       "id": "qsL3S8goZ80"
     }
   ],
-   "contactInfo": [
+  "contactInfo": [
     {
       "id": "1",
       "type": "phone",
@@ -1358,7 +1358,6 @@
       "updatedAt": "2026-04-01T10:00:00Z"
     }
   ],
-
   "workingHours": [
     {
       "id": "1",
@@ -1438,138 +1437,6 @@
       "isActive": true
     }
   ],
-   "workingHours": [
-    {
-      "id": "1",
-      "day": "شنبه",
-      "dayEn": "Saturday",
-      "dayNumber": 0,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "18:00",
-      "displayOrder": 1,
-      "isActive": true
-    },
-    {
-      "id": "2",
-      "day": "یکشنبه",
-      "dayEn": "Sunday",
-      "dayNumber": 1,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "18:00",
-      "displayOrder": 2,
-      "isActive": true
-    },
-    {
-      "id": "3",
-      "day": "دوشنبه",
-      "dayEn": "Monday",
-      "dayNumber": 2,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "18:00",
-      "displayOrder": 3,
-      "isActive": true
-    },
-    {
-      "id": "4",
-      "day": "سه‌شنبه",
-      "dayEn": "Tuesday",
-      "dayNumber": 3,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "18:00",
-      "displayOrder": 4,
-      "isActive": true
-    },
-    {
-      "id": "5",
-      "day": "چهارشنبه",
-      "dayEn": "Wednesday",
-      "dayNumber": 4,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "18:00",
-      "displayOrder": 5,
-      "isActive": true
-    },
-    {
-      "id": "6",
-      "day": "پنجشنبه",
-      "dayEn": "Thursday",
-      "dayNumber": 5,
-      "isOpen": true,
-      "openTime": "09:00",
-      "closeTime": "13:00",
-      "displayOrder": 6,
-      "isActive": true
-    },
-    {
-      "id": "7",
-      "day": "جمعه",
-      "dayEn": "Friday",
-      "dayNumber": 6,
-      "isOpen": false,
-      "openTime": null,
-      "closeTime": null,
-      "displayOrder": 7,
-      "isActive": true
-    }
-  ],
-
-  "socialLinks": [
-    {
-      "id": "1",
-      "platform": "instagram",
-      "name": "اینستاگرام",
-      "nameEn": "Instagram",
-      "url": "https://instagram.com/chesshub",
-      "icon": "instagram",
-      "isActive": true,
-      "displayOrder": 1
-    },
-    {
-      "id": "2",
-      "platform": "telegram",
-      "name": "تلگرام",
-      "nameEn": "Telegram",
-      "url": "https://t.me/chesshub",
-      "icon": "telegram",
-      "isActive": true,
-      "displayOrder": 2
-    },
-    {
-      "id": "3",
-      "platform": "linkedin",
-      "name": "لینکدین",
-      "nameEn": "LinkedIn",
-      "url": "https://linkedin.com/company/chesshub",
-      "icon": "linkedin",
-      "isActive": true,
-      "displayOrder": 3
-    },
-    {
-      "id": "4",
-      "platform": "github",
-      "name": "گیت‌هاب",
-      "nameEn": "GitHub",
-      "url": "https://github.com/chesshub",
-      "icon": "github",
-      "isActive": true,
-      "displayOrder": 4
-    },
-    {
-      "id": "5",
-      "platform": "twitter",
-      "name": "توییتر",
-      "nameEn": "Twitter",
-      "url": "https://twitter.com/chesshub",
-      "icon": "twitter",
-      "isActive": false,
-      "displayOrder": 5
-    }
-  ],
   "socialLinks": [
     {
       "id": "1",
@@ -1645,11 +1512,11 @@
       "subject": "sales",
       "subjectLabel": "مشاوره خرید دوره",
       "message": "سلام، من می‌خواهم دوره استادکلاس گشایش اسپانیایی را تهیه کنم. آیا تخفیف ویژه برای دانشجویان دارید؟",
-      "status": "unread",
-      "isRead": false,
-      "isReplied": false,
+      "status": "replied",
+      "isRead": true,
+      "isReplied": true,
       "createdAt": "2026-04-22T14:15:00Z",
-      "updatedAt": null
+      "updatedAt": "2026-04-26T13:05:35.625Z"
     },
     {
       "id": "msg3",
@@ -1687,13 +1554,12 @@
       "subject": "other",
       "subjectLabel": "سایر موارد",
       "message": "سلام، لطفاً درخواست من را در بخش پشتیبانی بررسی کنید. شماره تیکت: #1234",
-      "status": "unread",
-      "isRead": false,
-      "isReplied": false,
+      "status": "replied",
+      "isRead": true,
+      "isReplied": true,
       "createdAt": "2026-04-23T08:00:00Z",
-      "updatedAt": null
+      "updatedAt": "2026-04-26T13:10:11.298Z"
     }
-  ]
-
-
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
