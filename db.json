@@ -1317,6 +1317,5 @@
       "updatedAt": "2026-04-26T10:07:45.840Z",
       "id": "qsL3S8goZ80"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
