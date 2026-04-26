@@ -1317,5 +1317,125 @@
       "updatedAt": "2026-04-26T10:07:45.840Z",
       "id": "qsL3S8goZ80"
     }
+  ],
+   "contactInfo": [
+    {
+      "id": "1",
+      "type": "phone",
+      "value": "۰۹۲۱-۳۵۷-۰۳۸۹",
+      "valueEn": "09213570389",
+      "label": "شماره تماس",
+      "labelEn": "Phone Number",
+      "icon": "phone",
+      "isActive": true,
+      "displayOrder": 1,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "type": "email",
+      "value": "support@chesshub.com",
+      "label": "آدرس ایمیل",
+      "labelEn": "Email Address",
+      "icon": "email",
+      "isActive": true,
+      "displayOrder": 2,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "type": "address",
+      "value": "تهران، خیابان ولیعصر، بالاتر از میدان ونک، پلاک ۱۲۳",
+      "valueEn": "Tehran, Valiasr Street, Above Vanak Square, No. 123",
+      "label": "آدرس دفتر مرکزی",
+      "labelEn": "Headquarters Address",
+      "icon": "location",
+      "isActive": true,
+      "displayOrder": 3,
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-04-01T10:00:00Z"
+    }
+  ],
+
+  "workingHours": [
+    {
+      "id": "1",
+      "day": "شنبه",
+      "dayEn": "Saturday",
+      "dayNumber": 0,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "day": "یکشنبه",
+      "dayEn": "Sunday",
+      "dayNumber": 1,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "day": "دوشنبه",
+      "dayEn": "Monday",
+      "dayNumber": 2,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "displayOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "day": "سه‌شنبه",
+      "dayEn": "Tuesday",
+      "dayNumber": 3,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "displayOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "day": "چهارشنبه",
+      "dayEn": "Wednesday",
+      "dayNumber": 4,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "18:00",
+      "displayOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "day": "پنجشنبه",
+      "dayEn": "Thursday",
+      "dayNumber": 5,
+      "isOpen": true,
+      "openTime": "09:00",
+      "closeTime": "13:00",
+      "displayOrder": 6,
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "day": "جمعه",
+      "dayEn": "Friday",
+      "dayNumber": 6,
+      "isOpen": false,
+      "openTime": null,
+      "closeTime": null,
+      "displayOrder": 7,
+      "isActive": true
+    }
   ]
 }
