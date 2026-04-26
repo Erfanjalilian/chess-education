@@ -57,9 +57,7 @@ async function getMostPopularBlogs(): Promise<Blog[]> {
 // فرمت کردن تعداد بازدید
 function formatViews(views: number): string {
   if (views >= 1000000) {
-    return (views / 1000000).toFixed(1).toLocaleString("fa-IR") + " میلیون";
   } else if (views >= 1000) {
-    return (views / 1000).toFixed(0).toLocaleString("fa-IR") + " هزار";
   }
   return views.toLocaleString("fa-IR");
 }
