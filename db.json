@@ -1258,65 +1258,8 @@
       "publishedAt": "2026-04-22T10:00:00Z",
       "createdAt": "2026-04-19T14:00:00Z",
       "updatedAt": "2026-04-23T12:00:00Z"
-    },
-    {
-      "title": "مقاله ی تستی",
-      "titleEn": "",
-      "slug": "م",
-      "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است",
-      "content": "",
-      "coverImage": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
-      "category": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است",
-      "categorySlug": "",
-      "tags": [
-        "آموزش"
-      ],
-      "readingTime": 5,
-      "status": "published",
-      "isFeatured": false,
-      "author": {
-        "id": "1",
-        "name": "امیرحسین قاسمی",
-        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-        "role": "مدیر سایت"
-      },
-      "viewCount": 0,
-      "likes": 0,
-      "commentsCount": 0,
-      "publishedAt": "2026-04-26T10:05:50.390Z",
-      "createdAt": "2026-04-26T10:05:50.390Z",
-      "updatedAt": "2026-04-26T10:05:50.390Z",
-      "id": "54FqriIJY2k"
-    },
-    {
-      "title": "مقاله ی تستی",
-      "titleEn": "",
-      "slug": "م",
-      "excerpt": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است",
-      "content": "",
-      "coverImage": "https://boom-zrbn.mohtava.cloud/thumbs/api/v1/image/bb7d5209-5b49-3c7f-a642-72d75d78ffc9?zb_svc=fajr-im-prod&zb_dmn=ipm&zb_type=internal&zb_pl=0&zb_referer=zarebin.ir",
-      "category": "",
-      "categorySlug": "",
-      "tags": [
-        "آموزش"
-      ],
-      "readingTime": 5,
-      "status": "published",
-      "isFeatured": false,
-      "author": {
-        "id": "1",
-        "name": "امیرحسین قاسمی",
-        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-        "role": "مدیر سایت"
-      },
-      "viewCount": 0,
-      "likes": 0,
-      "commentsCount": 0,
-      "publishedAt": "2026-04-26T10:07:45.839Z",
-      "createdAt": "2026-04-26T10:07:45.840Z",
-      "updatedAt": "2026-04-26T10:07:45.840Z",
-      "id": "qsL3S8goZ80"
     }
+    
   ],
   "contactInfo": [
     {
@@ -1561,5 +1504,197 @@
       "updatedAt": "2026-04-26T13:10:11.298Z"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "aboutStats": [
+    {
+      "id": "stat1",
+      "value": "۱۵,۰۰۰+",
+      "valueRaw": 15000,
+      "label": "دانشجوی فعال",
+      "labelEn": "Active Students",
+      "icon": "students",
+      "displayOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "stat2",
+      "value": "۵۰+",
+      "valueRaw": 50,
+      "label": "دوره تخصصی",
+      "labelEn": "Specialized Courses",
+      "icon": "courses",
+      "displayOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "stat3",
+      "value": "۱۰+",
+      "valueRaw": 10,
+      "label": "مدرس مجرب",
+      "labelEn": "Experienced Instructors",
+      "icon": "instructors",
+      "displayOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "stat4",
+      "value": "۱۰۰,۰۰۰+",
+      "valueRaw": 100000,
+      "label": "بازدید ماهانه",
+      "labelEn": "Monthly Visitors",
+      "icon": "visitors",
+      "displayOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    }
+  ],
+  "aboutValues": [
+    {
+      "id": "value1",
+      "title": "کیفیت برتر",
+      "titleEn": "Premium Quality",
+      "description": "تمامی دوره‌ها توسط استادبزرگان و مربیان مجرب تولید می‌شوند",
+      "descriptionEn": "All courses are produced by grandmasters and experienced instructors",
+      "icon": "🎯",
+      "displayOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "value2",
+      "title": "دسترسی آسان",
+      "titleEn": "Easy Access",
+      "description": "یادگیری آنلاین در هر زمان و هر مکان با پشتیبانی کامل",
+      "descriptionEn": "Online learning anytime, anywhere with full support",
+      "icon": "🌐",
+      "displayOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "value3",
+      "title": "پشتیبانی حرفه‌ای",
+      "titleEn": "Professional Support",
+      "description": "تیم پشتیبانی ما ۷ روز هفته پاسخگوی سوالات شماست",
+      "descriptionEn": "Our support team is available 7 days a week to answer your questions",
+      "icon": "💬",
+      "displayOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "value4",
+      "title": "به‌روزرسانی مداوم",
+      "titleEn": "Continuous Updates",
+      "description": "محتوای آموزشی بر اساس آخرین متدهای روز شطرنج به‌روز می‌شود",
+      "descriptionEn": "Educational content is updated based on the latest modern chess methods",
+      "icon": "🔄",
+      "displayOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    }
+  ],
+    "aboutTeam": [
+    {
+      "id": "team1",
+      "name": "امیرحسین قاسمی",
+      "nameEn": "Amirhossein Ghasemi",
+      "role": "بنیان‌گذار",
+      "roleEn": "Founder",
+      "bio": "فارغ‌التحصیل مهندسی کامپیوتر با بیش از ۱۵ سال تجربه در شطرنج",
+      "bioEn": "Computer engineering graduate with over 15 years of chess experience",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/amirhossein-ghasemi",
+        "twitter": "https://twitter.com/amirhossein",
+        "instagram": "https://instagram.com/amirhossein"
+      },
+      "displayOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "team2",
+      "name": "سارا کریمی",
+      "nameEn": "Sara Karimi",
+      "role": "مدیر آموزشی",
+      "roleEn": "Educational Director",
+      "bio": "استاد بین‌المللی شطرنج با سابقه تدریس در بیش از ۱۰ کشور",
+      "bioEn": "International Master with teaching experience in over 10 countries",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/sara-karimi",
+        "twitter": "https://twitter.com/sarakarimi",
+        "instagram": "https://instagram.com/sarakarimi"
+      },
+      "displayOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "team3",
+      "name": "محمد رضایی",
+      "nameEn": "Mohammad Rezaei",
+      "role": "سرپرست تولید محتوا",
+      "roleEn": "Content Production Manager",
+      "bio": "کارشناس ارشد هوش مصنوعی و آنالیزور ارشد شطرنج",
+      "bioEn": "Master's degree in Artificial Intelligence and Senior Chess Analyst",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mohammad-rezaei",
+        "twitter": "https://twitter.com/mohammadrezaei",
+        "instagram": "https://instagram.com/mohammadrezaei"
+      },
+      "displayOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "team4",
+      "name": "زهرا حسینی",
+      "nameEn": "Zahra Hosseini",
+      "role": "مدیر پشتیبانی",
+      "roleEn": "Support Manager",
+      "bio": "کارشناس ارشد روانشناسی با تخصص در آموزش و ارتباط با مشتری",
+      "bioEn": "Master's degree in Psychology with expertise in education and customer relations",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/zahra-hosseini",
+        "twitter": "https://twitter.com/zahrahosseini",
+        "instagram": "https://instagram.com/zahrahosseini"
+      },
+      "displayOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00Z"
+    }
+  ],
+  "aboutStory": {
+    "id": "story1",
+    "title": "داستان ChessHub",
+    "titleEn": "ChessHub Story",
+    "content": "<p>ChessHub در سال ۱۴۰۰ با هدف ارائه آموزش‌های باکیفیت و تخصصی شطرنج به زبان فارسی تأسیس شد. ما معتقدیم که شطرنج فراتر از یک بازی، یک هنر و علم است که می‌تواند مهارت‌های تحلیلی، خلاقیت و صبر را در افراد تقویت کند.</p><p>امروز ChessHub به عنوان یکی از معتبرترین پلتفرم‌های آموزش آنلاین شطرنج در ایران شناخته می‌شود. با بیش از ۵۰ دوره تخصصی و همکاری با برترین اساتید کشور، توانسته‌ایم میزبان هزاران شطرنج‌باز مشتاق از سراسر ایران باشیم.</p><p>رسالت ما ترویج فرهنگ شطرنج و ارائه آموزش‌های استاندارد و به‌روز به تمام علاقه‌مندان است، از مبتدیانی که تازه قدم به دنیای شطرنج گذاشته‌اند تا بازیکنان حرفه‌ای که به دنبال ارتقای سطح خود هستند.</p>",
+    "contentEn": "<p>ChessHub was founded in 2021 with the aim of providing high-quality and specialized chess education in Persian. We believe that chess is more than a game; it is an art and science that can strengthen analytical skills, creativity, and patience in individuals.</p><p>Today, ChessHub is recognized as one of the most reputable online chess education platforms in Iran. With over 50 specialized courses and collaboration with the country's top instructors, we have hosted thousands of enthusiastic chess players from across Iran.</p><p>Our mission is to promote chess culture and provide standardized and up-to-date education to all enthusiasts, from beginners who have just stepped into the world of chess to professional players seeking to improve their skills.</p>",
+    "coverImage": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=800&h=600&fit=crop",
+    "coverImageEn": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?w=800&h=600&fit=crop",
+    "updatedAt": "2026-04-01T08:00:00Z"
+  },
+
+  "aboutSettings": {
+    "id": "settings1",
+    "siteName": "ChessHub",
+    "siteNameEn": "ChessHub",
+    "foundingYear": 2021,
+    "foundingLocation": "Tehran, Iran",
+    "numberOfEmployees": 15,
+    "areaServed": "Iran",
+    "languages": ["Persian"],
+    "description": "پلتفرم آموزش آنلاین شطرنج با بیش از ۵۰ دوره تخصصی و همکاری با برترین اساتید ایران",
+    "descriptionEn": "Online chess education platform with over 50 specialized courses and collaboration with Iran's top instructors",
+    "logo": "https://chesshub.com/logo.png",
+    "website": "https://chesshub.com"
+  }
+
+
 }

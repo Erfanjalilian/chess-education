@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
         hostname:"zarebin.ir",
          port:"",
         pathname:"/**"
+      },
+      {
+        protocol:"https",
+        hostname:"boom-zrbn.mohtava.cloud",
+         port:"",
+        pathname:"/**"
       }
     ],
   },
